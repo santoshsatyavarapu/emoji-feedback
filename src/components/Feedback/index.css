@@ -1,0 +1,42 @@
+/* Write your CSS code here. */
+.large-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to right, #ffeeee, #ffc0bb);
+  height: 100vh;
+}
+.small-container {
+  background-color: white;
+  border-radius: 15px;
+  padding: 20px;
+
+  width: 60vw;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+img {
+  height: 50px;
+  background-color: white;
+  margin-top: 40px;
+}
+li {
+  list-style: none;
+}
+.img-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-width: 310px;
+  max-width: 560;
+}
+
+h1 {
+  font-size: 30px;
+}
